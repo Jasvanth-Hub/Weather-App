@@ -8,7 +8,7 @@ body, html {
 #container{
     width: 100vw;
     height: 100vh;
-    background-image:url("../Images/tree.jpg");
+    background-image:url("tree.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,4 +72,15 @@ button{
 }
 span{
     font-size: 35px;
+}
+
+
+.footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(43, 43, 112);
+    color: white;
+    padding: 6px;
 }
